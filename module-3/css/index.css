@@ -1,0 +1,94 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+body {
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+}
+.page-header {
+    margin-bottom: 0;
+}
+.nav {
+    margin-top: 75px;
+}
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+.site-navigations li{
+    display: inline-block;
+    margin-right: 120px;
+}
+.site-navigations li:last-child {
+    margin-right: 0px;
+}
+.site-navigations {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    margin-left: 80px;
+}
+.site-navigations a {
+    color: #626262;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.site-navigations a:hover,
+.site-navigations a:focus {
+  color: #03a9f4;
+}
+.items {
+    margin-top: 100px;
+}
+.pics-items {
+    list-style: none;
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+}
+.s-item {
+    margin-bottom: 130px;
+}
+.back {
+    margin-bottom: 0;
+}
+.title-name {
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 30px;
+}
+p {
+    font-size: 14px;
+    line-height: 17px;
+}
+.s-item {
+    width: 420px;
+    display: inline-block;
+    margin-right: 60px;
+}
+.s-item:nth-child(2n) {
+    margin-right: 0px;
+}
+button {
+    width: 162px;
+    height: 60px;
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 358px;
+}
